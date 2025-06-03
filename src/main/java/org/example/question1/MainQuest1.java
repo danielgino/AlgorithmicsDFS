@@ -1,13 +1,11 @@
 package org.example.question1;
 
-import org.example.question1.DFS;
-
 import java.util.ArrayList;
 import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class MainQuest1 {
     public static void main(String[] args) {
         int graphSize=8;
         List <List<Integer>> graph=new ArrayList<>();
