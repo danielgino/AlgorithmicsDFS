@@ -31,11 +31,6 @@ public class DFS {
             System.out.print(topoStack.get(i) + " ");
         }
 
-//        System.out.println("Node\tParent\tDiscovery\tFinish");
-//        for (int i = 0; i < n; i++) {
-//            System.out.println(i + "\t"+"\t" + parent[i] + "\t\t\t" + discoveryTime[i] + "\t\t" + finishTime[i]);
-//        }
-
     }
 
     public  void dfsVisit(List <List<Integer>> graph,int u){
